@@ -1,6 +1,7 @@
 package imooc.java.test;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class TestAntoZhuangXiang {
@@ -21,5 +22,6 @@ public class TestAntoZhuangXiang {
 		long j = 4;
 		longList.add(j);//autoboxing
 		long s = longList.get(0);//unboxing
+		HashMap<String,String> map = new HashMap<String,String>();
 	}
 }
